@@ -40,9 +40,9 @@ def get_pexels_api_key():
     # Priority: st.secrets -> env var
     key = None
     try:
-        key = st.secrets["PEXELS_API_KEY"]
+        key = st.secrets["CdatHQezjqI1tA5zbPR6dlxFqRoBMBQ7DueRmPTCJCjs2kvRCPelckfE"]
     except Exception:
-        key = os.environ.get("PEXELS_API_KEY")
+        key = os.environ.get("CdatHQezjqI1tA5zbPR6dlxFqRoBMBQ7DueRmPTCJCjs2kvRCPelckfE")
     return key
 
 def pexels_search_images(query, per_page=8):
