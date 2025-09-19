@@ -5,11 +5,3 @@ Pillow
 numpy
 pydub
 validators
-
-Notes:
-- This app uses the Pexels API for image and video search. Get a free API key from https://www.pexels.com/api/ and set it as an environment variable `PEXELS_API_KEY` or put it in Streamlit secrets under `PEXELS_API_KEY`.
-- MoviePy requires ffmpeg installed on your system (install via apt, brew, or download from ffmpeg.org).
-- This is a simple editor: you can search & add online images/videos, upload local files, trim, reorder, and export a combined video.
-
-Run:
-streamlit run streamlit_video_editor_app.py
